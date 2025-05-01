@@ -35,10 +35,10 @@ def remove_files(n):
 
 remove_files(7)
 
-st.title("Reconocimiento Óptico de Caracteres")
+st.title("👀Reconocimiento Óptico de Caracteres🔟")
 st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
 
-cam_ = st.checkbox("Usar Cámara")
+cam_ = st.checkbox("Usar Cámara📸")
 
 if cam_:
     img_file_buffer = st.camera_input("Toma una Foto")
