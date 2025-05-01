@@ -109,7 +109,7 @@ with st.sidebar:
     
     translator = Translator()
       
-    # Lista de idiomas actualizada (sin coreano y bengalí, con ruso y alemán)
+
     in_lang = st.selectbox(
         "Seleccione el lenguaje de entrada",
         ("Ingles", "Español", "Ruso", "Alemán", "Mandarin", "Japones"),
